@@ -3,7 +3,7 @@ package model;
 import java.util.ArrayList;
 
 public class Pila <T>{
-    private ArrayList<T> lista;
+    private final ArrayList<T> lista;
 
     public Pila(){
         lista = new ArrayList<>();
